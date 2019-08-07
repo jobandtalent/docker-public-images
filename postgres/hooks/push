@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -ex
+
+# Only push on master branch
+if [ "${SOURCE_BRANCH}" != "master" ]; then
+    exit 0
+fi
+
+for tag in $(docker images jobandtalent/postgres --format "{{.Tag}}");
+do
+    docker push "jobandtalent/postgres:${tag}"
+done

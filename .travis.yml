@@ -1,0 +1,20 @@
+language: bash
+services: docker
+
+env:
+  - BASE_TAG=9.5-alpine
+  - BASE_TAG=9.6-alpine
+  - BASE_TAG=10.1-alpine
+  - BASE_TAG=11.1-alpine
+  - BASE_TAG=11.4-alpine
+
+install:
+  - git clone https://github.com/docker-library/official-images.git ~/official-images
+
+before_script: cd postgres
+
+script:
+  - "./hooks/build.sh"
+
+after_script:
+  - docker images
