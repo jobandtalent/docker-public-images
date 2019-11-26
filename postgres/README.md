@@ -11,7 +11,7 @@ Docker images for PostgreSQL with healtcheck, based on the official PostgreSQL a
 Images for `postresql-healtcheck` are based on official [postgres](https://hub.docker.com/_/postgres)
 images.
 
-* 9.5-alpine, 9.6-alpine, 10.1-alpine, 11.1-alpine, 11.4-alpine, 11.5-alpine, latest
+* 9.5-alpine, 9.6-alpine, 10.1-alpine, 11.1-alpine, 11.4-alpine, 11.5-alpine, 12.1-alpine, latest
 
 ## Reference
 
