@@ -24,7 +24,7 @@ Current supported tags:
  * 12.5-alpine
  * 13.0-alpine
  * 13.1-alpine
- * latest
+ * 13.2-alpine
 
 ## Reference
 
