@@ -17,4 +17,5 @@ export VARS='
   BASE_TAG=13.2-alpine
   BASE_TAG=13.6-alpine
   BASE_TAG=14.3-alpine
+  BASE_TAG=14.5-alpine
 '
