@@ -22,6 +22,7 @@ Current supported tags:
  * 11.9-alpine
  * 11.10-alpine
  * 11.11-alpine
+ * 11.16-alpine
  * 12.4-alpine
  * 12.5-alpine
  * 13.0-alpine
