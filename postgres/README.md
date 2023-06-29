@@ -29,6 +29,7 @@ Current supported tags:
  * 13.1-alpine
  * 13.2-alpine
  * 13.6-alpine
+ * 13.10-alpine
  * 14.3-alpine
  * 14.5-alpine
  * 14.6-alpine
