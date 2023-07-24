@@ -34,6 +34,7 @@ Current supported tags:
  * 14.5-alpine
  * 14.6-alpine
  * 14.8-alpine
+ * 15.2-alpine
 
 ## Reference
 
