@@ -2,4 +2,5 @@
 
 export VARS='
   PGREPACK_VERSION=1.4.7
+  PGREPACK_VERSION=1.5.0
 '
