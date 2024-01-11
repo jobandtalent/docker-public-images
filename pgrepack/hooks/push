@@ -7,7 +7,7 @@ if [ "${SOURCE_BRANCH}" != "master" ]; then
     exit 0
 fi
 
-for tag in $(docker images jobandtalent/redis-riot --format "{{.Tag}}");
+for tag in $(docker images jobandtalent/pgrepack --format "{{.Tag}}");
 do
-    docker push "jobandtalent/redis-riot:${tag}"
+    docker push "jobandtalent/pgrepack:${tag}"
 done
