@@ -1,9 +1,9 @@
 #!/bin/bash
 
-TAG="jobandtalent/redis-riot${RIOT_VERSION:+:${RIOT_VERSION}}"
+TAG="jobandtalent/pgrepack${PGREPACK_VERSION:+:${PGREPACK_VERSION}}"
 
 set -x
 docker build . \
     --no-cache \
     -t "$TAG" \
-    --build-arg RIOT_VERSION=$RIOT_VERSION
+    --build-arg PGREPACK_VERSION=$PGREPACK_VERSION
